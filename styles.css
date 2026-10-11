@@ -251,3 +251,37 @@
     max-width: 180px;
   }
 }
+
+/* INSTAGRAM FOOTER - ALINEACIÓN PERFECTA */
+
+.impacto-footer .footer-instagram {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  color: #FFBF00;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.impacto-footer .instagram-icon {
+  width: 22px;
+  height: 22px;
+  display: block;
+  flex-shrink: 0;
+  color: #FFBF00;
+}
+
+.impacto-footer .instagram-arrow {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.impacto-footer .footer-instagram:hover {
+  opacity: 0.75;
+}
