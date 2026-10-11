@@ -140,3 +140,22 @@
     display: none;
   }
 }
+
+/* CORREGIR ESPACIO ENTRE CONTACTO Y RESERVA */
+
+@media (min-width: 721px) {
+  .header nav {
+    margin-right: 0;
+    gap: 38px;
+  }
+
+  .header .nav-cta {
+    margin-left: 70px;
+    flex-shrink: 0;
+  }
+
+  .header .brand {
+    margin-right: auto;
+    left: 0;
+  }
+}
