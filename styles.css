@@ -12,7 +12,8 @@
   display: block;
 }
 
-/* LOGO PRINCIPAL DE IMPACTO EVENTOS */
+
+/* LOGO OFICIAL IMPACTO EVENTOS */
 
 .header .brand {
   display: flex;
@@ -22,15 +23,17 @@
 
 .header .brand-logo {
   width: 210px;
-  height: 75px;
+  height: auto;
+  max-height: 68px;
   object-fit: contain;
   display: block;
 }
 
-/* Tamaño del logo en celulares */
+/* LOGO EN CELULARES */
+
 @media (max-width: 720px) {
   .header .brand-logo {
     width: 145px;
-    height: 55px;
+    max-height: 50px;
   }
 }
