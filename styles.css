@@ -57,3 +57,47 @@
     max-height: 55px;
   }
 }
+
+/* NUEVA PALETA DE IMPACTO EVENTOS */
+
+:root {
+  --yellow: #FFBF00;
+}
+
+/* MOVER EL LOGO HACIA LA DERECHA */
+
+.header .brand {
+  position: relative;
+  left: 60px;
+}
+
+/* COLORES DE LOS ELEMENTOS */
+
+.live-dot {
+  box-shadow: 0 0 0 5px #FFBF0024;
+}
+
+.glow {
+  border-color: #FFBF0030;
+  box-shadow:
+    0 0 0 75px #FFBF0008,
+    0 0 0 155px #FFBF0006;
+}
+
+.primary {
+  background: #FFBF00;
+}
+
+.section-top h2 span,
+.manifesto h2 > span,
+.contact h2 span {
+  color: #FFBF00;
+}
+
+/* ADAPTACIÓN PARA CELULARES */
+
+@media (max-width: 720px) {
+  .header .brand {
+    left: 0;
+  }
+}
