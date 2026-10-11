@@ -124,3 +124,19 @@
     padding-left: 15px;
   }
 }
+
+/* SEPARAR EL MENÚ DEL BOTÓN RESERVA */
+
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  margin-right: 65px;
+}
+
+/* Mantener espacio en pantallas pequeñas */
+@media (max-width: 720px) {
+  .header nav {
+    display: none;
+  }
+}
