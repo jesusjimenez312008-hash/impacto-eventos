@@ -104,3 +104,23 @@
 
 .header .brand { position: relative; left: 60px; }
 @media (max-width:720px) { .header .brand { left: 0; } }
+
+/* LOGO ALINEADO A LA ESQUINA IZQUIERDA */
+
+.header .brand {
+  position: relative;
+  left: 0;
+  margin-right: auto;
+}
+
+/* Reducir margen izquierdo del encabezado */
+.header {
+  padding-left: 25px;
+}
+
+/* Ajuste para celulares */
+@media (max-width: 720px) {
+  .header {
+    padding-left: 15px;
+  }
+}
