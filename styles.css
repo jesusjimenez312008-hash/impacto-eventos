@@ -37,3 +37,23 @@
     max-height: 50px;
   }
 }
+
+.header .brand-logo {
+  width: 280px;
+  max-height: 75px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* AJUSTE PARA CELULARES */
+
+@media (max-width: 720px) {
+  .header {
+    gap: 12px;
+  }
+
+  .header .brand-logo {
+    width: 155px;
+    max-height: 55px;
+  }
+}
