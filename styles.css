@@ -201,3 +201,24 @@
     letter-spacing: -0.065em;
   }
 }
+/* ADAPTACIÓN A CELULARES */
+
+@media (max-width: 720px) {
+  .impacto-footer {
+    padding: 45px 20px;
+  }
+
+  .footer-main,
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-brand img {
+    width: 200px;
+  }
+
+  .footer-instagram {
+    font-size: 11px;
+  }
+}
