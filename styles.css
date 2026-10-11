@@ -159,3 +159,18 @@
     left: 0;
   }
 }
+/* EVITAR EMOJIS EN IPHONE */
+
+.burst,
+.graphic,
+.brand-icon,
+.nav-cta span,
+.btn span {
+  font-family: Arial, sans-serif;
+  font-variant-emoji: text;
+}
+
+/* ESTRELLA DECORATIVA */
+.burst {
+  color: #FFBF00;
+}
